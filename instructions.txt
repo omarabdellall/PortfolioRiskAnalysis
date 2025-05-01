@@ -1,0 +1,33 @@
+CPSC370 Final Project
+
+Instructions to use:
+
+1. First, it is important to install the required modules in requirements.txt. Run the command:
+    pip install -r requirements.txt
+I recommend a virtual environment for this!
+
+Now we have several options:
+
+1. Command-line analysis:
+
+To use the command line, run:
+python run_analysis.py --portfolio path/to/your/portfolio.csv --output_report path/to/save/report.txt
+
+You can choose specific arguments (otherwise it'll run default) such as:
+--output_heatmap: Path for the risk heatmap image (e.g., --output_heatmap my_heatmap.png).
+--base_currency: Base currency (e.g., --base_currency EUR).
+--market_index: Market index for beta (e.g., --market_index "^GDAXI").
+--optimize_objective: Optimization goal (max_sharpe or min_variance).
+
+
+2. Jupyter notebook
+
+Make sure you have the required dependencies and run the cells in order! That's it!
+
+3. Website:
+
+First, run the frontend in terminal by running: npm run dev while inside of the /web_app/frontend folder.
+Then, run the backend in terminal by running: python app.py while inside of the /web_app/backend folder.
+Finally, open up http://localhost:3000 in your browser and enjoy!
+
+Upload your own CSV or use an example!

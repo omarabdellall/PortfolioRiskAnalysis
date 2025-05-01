@@ -1,0 +1,10 @@
+Flask
+pandas
+numpy
+yfinance
+scipy
+matplotlib
+seaborn
+# jupyterlab # Not needed for the backend API
+arch
+Flask-CORS # For allowing requests from frontend dev server 
